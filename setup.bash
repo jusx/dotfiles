@@ -13,5 +13,5 @@ else
    # copy files to .dots
    cp -R ./.dots/* ~/.dots
 
-   ln -s ~/./dots/ssh/config ~/.ssh/config
+   link ~/.dots/ssh/config ~/.ssh/config
 fi
