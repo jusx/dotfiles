@@ -1,0 +1,3 @@
+# Only require paraphrase once. For OS X Sierra.
+Host *
+   UseKeychain yes

@@ -11,5 +11,7 @@ else
    curl -o ~/.dots/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 
    # copy files to .dots
-   cp ./.dots/* ~/.dots
+   cp -R ./.dots/* ~/.dots
+
+   ln -s ~/./dots/ssh/config ~/.ssh/config
 fi
