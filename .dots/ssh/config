@@ -1,0 +1,4 @@
+# Only require paraphrase once. For OS X Sierra.
+Host *
+   AddKeysToAgent yes
+   UseKeychain yes
