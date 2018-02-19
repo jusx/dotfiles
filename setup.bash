@@ -24,4 +24,7 @@ if [ -f ./privates/ssh/config ]; then
 fi
 link ~/.dots/ssh/config ~/.ssh/config
 
+echo "Linking gitconfig"
+link ~/.dots/gitconfig ~/.gitconfig
+
 printf "\nDone!\n"
