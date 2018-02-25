@@ -8,7 +8,11 @@
    ci = commit -a
    br = branch
    lg = log -p
+   ls = log --oneline
    graph = log --graph --oneline --decorate=short --branches='*'
+   ra-up = "!f() { \
+        git remote add upstream git@github.com:$1.git; \
+      }; f"
 
 [push]
    default = current
